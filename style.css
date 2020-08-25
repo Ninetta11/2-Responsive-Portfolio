@@ -1,0 +1,75 @@
+
+html, body {
+    height: 100%;
+}
+
+body  {
+    display: flex;
+    flex-direction: column;
+}
+
+header {
+    margin-bottom: 100px;
+}
+
+footer {
+    flex-shrink: 0;
+    margin-top: 100px;
+}
+
+h1, 
+h3 {
+    font-family: 'Jura', sans-serif;
+    color: teal;
+}
+
+h2 {
+    position: absolute;
+    top: 25%;
+    text-align: center;
+    font-family: 'Homemade Apple', cursive;
+    word-spacing: 10px;
+}
+
+h4 {
+    font-size: 18px;
+}
+
+hr {
+    background-color: teal;
+    border: 0;
+    height: 1px;
+}
+
+.content {
+    flex: 1 0 auto;
+}
+
+.centre {
+    width: 250;
+    height: 250;
+    border-radius: 50%;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+}
+
+.textcentred {
+    text-align: center;
+    padding-bottom: 25px;
+}
+
+.btn-primary {
+    background-color: teal;
+    border-color: teal;
+}
+
+.medialinks {
+    height: 350px;
+    width: 300px;
+    display: block;
+    margin-right: auto;
+    margin-left: auto;
+    margin-bottom: 20px;
+}
+
