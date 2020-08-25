@@ -5,15 +5,15 @@ Creation of personal website with responsive layout utilising Bootstrap css.
 ## About
 Personal Bio with terrible profile photo with uninteresting and self-aggrandizing facts.
 
-! [ScreenShot](https://raw.github.com/Ninetta11/2-Responsive-Portfolio/ScreenShotNinaWelsh/About)
+![Alt text](https://raw.github.com/Ninetta11/2-Responsive-Portfolio/ScreenShotNinaWelsh/About?raw=true)
 
 ## Portfolio
 Portfolio of most recent professional successes with relevant, fantastically edited, media links.
 
-! [ScreenShot](https://raw.github.com/Ninetta11/2-Responsive-Portfolio/ScreenShotNinaWelsh/Portfolio)
+![Alt text](https://raw.github.com/Ninetta11/2-Responsive-Portfolio/ScreenShotNinaWelsh/Portfolio?raw=true)
 
 ## Contact
 Contact page with editable form.
 
-! [ScreenShot](https://raw.github.com/Ninetta11/2-Responsive-Portfolio/ScreenShotNinaWelsh/Contact)
+![Alt text](https://raw.github.com/Ninetta11/2-Responsive-Portfolio/ScreenShotNinaWelsh/Contact?raw=true)
 
