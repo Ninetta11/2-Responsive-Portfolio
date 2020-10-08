@@ -3,48 +3,305 @@
 
 <head>
     <meta charset="UTF-8">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css" integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/css/bootstrap.min.css"
+        integrity="sha384-JcKb8q3iqJ61gNV9KGb8thSsNjpSL0n8PARn9HuZOnIxN0hoP+VmmDGMN5t9UJ0Z" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css"
+        integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
     <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Homemade+Apple&display=swap">
-    <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Jura&display=swap">
-    <link rel="stylesheet" href="style.css">
-    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
-    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js" integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN" crossorigin="anonymous"></script>
-    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js" integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV" crossorigin="anonymous"></script>
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Open+Sans:wght@300;400&family=Raleway:wght@200;300&display=swap">
+    <link rel="stylesheet" href="assets/css/style.css">
     <title>Nina Welsh</title>
 </head>
 
 <body>
     <header>
-        <nav class="navbar navbar-expand-lg fixed-top navbar-dark bg-dark">
-            <a class="navbar-brand" href="index.html">Nina Welsh</a>
-            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-              <span class="navbar-toggler-icon"></span>
+        <nav class="navbar navbar-expand-lg fixed-top navbar-dark">
+            <a class="navbar-brand" href="index.html" style="color:#EFCB68">Nina Welsh</a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
             </button>
             <div class="collapse navbar-collapse justify-content-end" id="navbarNavAltMarkup">
-                <div class="navbar-nav">
-                    <a class="nav-link active" href="index.html">About <span class="sr-only">(current)</span></a>  
-                    <a class="nav-link" href="portfolio.html">Portfolio</a>
-                    <a class="nav-link" href="contact.html">Contact</a>    
+                <div id="directory" class="navbar-nav">
+                    <a class="nav-link" href="#portfolio">Portfolio</a>
+                    <a class="nav-link" href="#achievements">Achievements</a>
+                    <a class="nav-link" href="#about">About</a>
+                    <a class="nav-link" href="#contact">Contact</a>
                 </div>
             </div>
-        </nav>    
+        </nav>
     </header>
-    
-    <section class="container content">
+
+    <article id="bio" class="container-fluid">
         <div class="row">
-            <div class="col-md-4">
-                <img class="centre" src="ProfilePhoto.png" alt="Nina Welsh Profile Image" width="250" height="250">
-                <hr></hr>
-                <h1 class="textcentred">Nina Welsh</h1>
+            <div class="col-md-1"></div>
+            <div class="col-md-3">
+                <img class="centre" src="assets/Images/IMG_0006.jpeg" alt="Nina Welsh Profile Image" width="250"
+                    height="250">
             </div>
-            <div class="col-md-8">
-                <h2>Entrepreneur, Business Developer, Idealist, Hiker, Book Collector, Intrepid Traveller, Lover of Wine</h2>
+            <div class="col-md-7">
+                <h2 class="d-flex align-items-center">Full Stack Developer, Entrepreneur, Business Developer, Idealist,
+                    Hiker,
+                    Book Collector, Intrepid
+                    Traveller, Lover of Wine
+                </h2>
             </div>
         </div>
-    </section>
+    </article>
 
-    <footer class="navbar navbar-expand-lg position-sticky navbar-dark bg-dark">
+
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-1"></div>
+
+            <section class="col-md-10">
+
+                <article id="portfolio">
+                    <div class="row">
+                        <h1>Portfolio</h1>
+                    </div>
+                    <div id="inner" class="row row-cols-1 row-cols-md-3">
+                        <div class="col mb-4">
+                            <div class="card h-100">
+                                <img src="assets/videos/Student-view Demo.gif" class="card-img-top"
+                                    alt="Pinboard App Student View Demo">
+                                <div class="card-body">
+                                    <a href="https://ninetta11.github.io/7-Project-1/">
+                                        <h5 class="card-title">Pinboard</h5>
+                                    </a>
+                                    <p class="card-text">Pinboard is an online school bulletin board that displays year
+                                        group specific information for students. Incorporates a message board on the
+                                        student view. Administration access allows both school specific and class
+                                        specific information to be updated dynamically.</p>
+                                </div>
+                                <div class="card-footer">
+                                    <small class="text-muted"><a
+                                            href="https://github.com/Ninetta11/7-Project-1.git">View Code</a></small>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col mb-4">
+                            <div class="card h-100">
+                                <img src="assets/videos/Weather Dashboard Demo.gif" class="card-img-top"
+                                    alt="Weather Dashboard App Demo">
+                                <div class="card-body">
+                                    <a href="https://ninetta11.github.io/6-Weather-Dashboard/">
+                                        <h5 class="card-title">Weather Dashboard</h5>
+                                    </a>
+                                    <p class="card-text">A weather dashboard that displays the current weather
+                                        conditions as well as a 5-day forecast. Includes the addition of saving searches
+                                        for future quick retrieval.</p>
+                                </div>
+                                <div class="card-footer">
+                                    <small class="text-muted"><a
+                                            href="https://github.com/Ninetta11/6-Weather-Dashboard.git">View
+                                            Code</a></small>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="col mb-4">
+                            <div class="card h-100">
+                                <img src="assets/videos/Workday Scheduler Demo.gif" class="card-img-top"
+                                    alt="Workday Scheduler App Demo">
+                                <div class="card-body">
+                                    <a href="https://ninetta11.github.io/5-Day-Planner/">
+                                        <h5 class="card-title">Workday
+                                            Scheduler</h5>
+                                    </a>
+                                    <p class="card-text">A simple daily scheduling app that allows you to save notes
+                                        within hourly timeslots and uses colour to alert users to past, current and
+                                        future occurences.</p>
+                                </div>
+                                <div class="card-footer">
+                                    <small class="text-muted"><a
+                                            href="https://github.com/Ninetta11/5-Day-Planner.git">View Code</a></small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+
+                <article id="achievements">
+                    <div class="row">
+                        <div class="col-md-12 text-right">
+                            <h1>Achievements</h1>
+                        </div>
+                    </div>
+                    <div class="row row-cols-1 row-cols-md-2">
+                        <div class="col mb-4">
+                            <div id="port-grocer" class="card">
+                                <div class="card-body">
+                                    <h5 class="card-title">Port Grocer</h5>
+                                    <h6 class="card-subtitle mb-2 text-muted">Project Manager, 2020</h6>
+                                    <p class="card-text">The local community of Port Kembla asked for a community led,
+                                        zero waste supermarket to be established in the township. A run down warehouse
+                                        was obtained and transformed into a welcoming community meeting place where
+                                        locals could purchase all their grocery staples without the usual associated
+                                        waste.</p>
+                                    <div class="media">
+                                        <iframe
+                                            src="assets/videos/temp_116207468_2388051378171317_4724550280245596659_n.mp4"
+                                            alt="Port Grocer WIN TV news segment" class="mr-3 w-100"
+                                            style="border:none;overflow:hidden" scrolling="no" frameborder="0"
+                                            width="100" allowTransparency="true" allow="encrypted-media"></iframe>
+                                    </div>
+                                    <div class="media-body">
+                                        <h5 class="mt-0">Port Grocer Opening</h5>
+                                        Port Grocer supports local suppliers and growers by providing an opportunity for
+                                        distribution as well as a local presence. Larger retailers had abandoned Port
+                                        Kembla over the previous 30 years and relocated to larger towns, leaving
+                                        locals with no option but to travel into adjacent towns for their groceries.
+                                        Port
+                                        Grocer sought to rectify that by proving that local demand and community
+                                        cooperation could
+                                        come together to create a grass roots solution.
+                                    </div>
+                                    <div class="media">
+                                        <iframe
+                                            src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fportgrocer%2Fposts%2F616554375645994&show_text=true&width=552&height=513&appId"
+                                            alt="Port Grocer ABC News Story" class="mr-3 w-100"
+                                            style="border:none;overflow:hidden" scrolling="no" frameborder="0"
+                                            allowTransparency="true" allow="encrypted-media"></iframe>
+                                    </div>
+                                    <div class="media-body">
+                                        <h5 class="mt-0">Plastic-free Community Supermarket</h5>
+                                    </div>
+                                </div>
+                                <div class="card-footer">
+                                    <small class="text-muted"><a
+                                            href="https://www.ourcommunityproject.org.au/portgrocer">www.ourcommunityproject.org.au</a></small>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col mb-4">
+                            <div id="geonbae" class="card">
+                                <div class="card-body">
+                                    <h5 class="card-title">Geonbae Korean BBQ Restaurant</h5>
+                                    <h6 class="card-subtitle mb-2 text-muted">Owner/ Director, 2016 - 2018</h6>
+                                    <p class="card-text">From initial concept - to fitout in a new commercial building -
+                                        to ongoing management and marketing - Geonbae was a personal experiment to test
+                                        whether conviction and hardwork could turn an idea into a profitable business.
+                                        The result spoke for itself.</p>
+                                    <div class="media">
+                                        <iframe
+                                            src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2Fnkliman%2Fposts%2F10153969054966636&show_text=true&width=552&height=435&appId"
+                                            alt="Geonbae Official Opening by Local Member Chris Chrewther"
+                                            class="mr-3 w-100" style="border:none;overflow:hidden" scrolling="no"
+                                            frameborder="0" allowTransparency="true" allow="encrypted-media"></iframe>
+                                    </div>
+                                    <div class="media-body">
+                                        <h5 class="mt-0">Geonbae Official Opening by Local Member Chris Chrewther</h5>
+                                        Geonbae was the first restaurant of its kind on the Mornington Peninsula and its
+                                        turnover in the first 12 months was over $1.2 million. It is consistantly in the
+                                        top three restaurants in Frankston as voted on Tripadvisor. It has become a
+                                        popular dining option for residents of the Mornington Peninsula and a shining
+                                        star on the Frankston foreshore.
+                                    </div>
+                                    <div class="media">
+                                        <iframe
+                                            src="https://www.facebook.com/plugins/post.php?href=https%3A%2F%2Fwww.facebook.com%2FGeonbaeFrankston%2Fposts%2F1193041057467623&show_text=true&width=552&height=637&appId"
+                                            alt="Frankston City Council Start-up Grant recipient" class="mr-3 w-100"
+                                            style="border:none;overflow:hidden" scrolling="no" frameborder="0"
+                                            allowTransparency="true" allow="encrypted-media"></iframe>
+                                    </div>
+                                    <div class="media-body">
+                                        <h5 class="mt-0">Successful for $10,000 grant funding from Frankston City
+                                            Council
+                                            for a New Start-Up</h5>
+                                    </div>
+                                </div>
+                                <div class="card-footer">
+                                    <small class="text-muted"><a
+                                            href="https://www.geonbae.com.au/">www.geonbae.com.au</a></small>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </article>
+
+                <div class="row">
+                    <article id="about" class="col-md-7">
+                        <h3>About</h3>
+                        <img id="about-img" class="right" src="assets/Images/IMG_0006.jpeg"
+                            alt="Nina Welsh Profile Image" width="250" height="250">
+                        <p>Full stack web developer with extensive program and project management experience in a
+                            diverse range of industries.
+                            Bachelor Degree in Development Studies from La Trobe University and currently completing a
+                            Certificate from Sydney University in full stack web technologies, including Javascript,
+                            CSS, HTML, Node.JS and others.
+                            Previous professional experience includes establishing businesses and programs from concept
+                            to execution, including ongoing management and development, across hospitality and retail as
+                            well as the social welfare sector. Thrives when able to
+                            apply advanced problem solving skills and work autonomously. Seeking to apply this broad
+                            range of skills and experience, together with a passion for societal change towards a more
+                            sustainable and equitable future, within the blockchain and distributed ledger technology
+                            space.</p>
+                        <a id="resume" class="btn btn-lg btn-outline-light"
+                            href="https://drive.google.com/file/d/131lfM9T52YGf9hAOzxnbmkShJK3UQo-I/view?usp=sharing"><i
+                                class="far fa-file"></i>
+                            Resume</a>
+                    </article>
+
+                    <form id="contact" class="col-md-5">
+                        <div class="col-md-12">
+                            <h3>Contact</h3>
+                            <div class="form-group">
+                                <label for="inputName">Name</label>
+                                <input type="text" class="form-control" id="inputName" placeholder="Full Name">
+                            </div>
+                            <div class="form-group">
+                                <label for="inputEmail1">Email address</label>
+                                <input type="email" class="form-control" id="inputEmail1"
+                                    placeholder="example@email.com.au" aria-describedby="emailHelp">
+                                <small id="emailHelp" class="form-text text-muted"></small>
+                            </div>
+                            <div class="form-group">
+                                <label for="inputMessage">Message</label>
+                                <textarea class="form-control" id="inputMessage" rows="3"
+                                    placeholder="Enter your message here"></textarea>
+                            </div>
+                            <button type="submit" class="btn btn-primary right">Submit</button>
+                        </div>
+                    </form>
+                </div>
+            </section>
+        </div>
+    </div>
+
+    <footer class="position-sticky">
+        <ul class="nav flex-column align-items-center">
+            <li class="nav-item">
+                <a class="nav-link text-white"><i class="fas fa-map-marker-alt"></i> Melbourne, Australia</a></li>
+            <li class="nav-item">
+                <a class="nav-link text-white" href="tel://+61418947922"><i class="fas fa-phone"></i> 0418 947
+                    922</a>
+            </li>
+            <li class="nav-item">
+                <a class="nav-link text-white" href="mailto:ninawelsh1@outlook.com"><i class="fas fa-envelope"></i>
+                    ninawelsh1@outlook.com</a></li>
+            <li class="nav-item">
+                <a class="nav-link text-white" href="linkedin.com/in/nina-welsh-b2407398"><i
+                        class="fab fa-linkedin"></i>
+                    LinkedIn Profile</a></li>
+            <li class="nav-item">
+                <a class="nav-link text-white" href="https://github.com/Ninetta11"><i class="fab fa-github"></i>
+                    Github - Ninetta11</a></li>
+            <br>
+        </ul>
     </footer>
+
+    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"
+        integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj"
+        crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/popper.js@1.16.1/dist/umd/popper.min.js"
+        integrity="sha384-9/reFTGAW83EW2RDu2S0VKaIzap3H66lZH81PoYlFhbGU+6BZp6G7niu735Sk7lN"
+        crossorigin="anonymous"></script>
+    <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.5.2/js/bootstrap.min.js"
+        integrity="sha384-B4gt1jrGC7Jh4AgTPSdUtOBvfO8shuf57BaghqFfPlYxofvL8/KUEfYiJOMMV+rV"
+        crossorigin="anonymous"></script>
+    <script src="assets/js/script.js"></script>
 
 </body>
 
